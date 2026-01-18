@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+  <p>If you have any questions or any feedback feel free to reach out using the form below or through my social media links!</p>
+    <form id="contactForm" onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" required></textarea><br>
+      
+      <button type="submit">Send</button>
+    </form>
+
+  <h2>Connect with me</h2>
+  <ul>
+    <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+    <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+    <li><a href="https://youtube.com/" target="_blank">Youtube</a></li>
+  </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sada Travel Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<places>
+  <place>
+    <name>Paris</name>
+    <country>France</country>
+  </place>
+
+  <place>
+    <name>Cape Town</name>
+    <country>South Africa</country>
+  </place>
+
+  <place>
+    <name>Atlanta</name>
+    <country>America</country>
+  </place>
+  <place>
+  
+    <name>Beijing</name>
+    <country>China</country>
+  </place>
+</places>
